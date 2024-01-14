@@ -1,4 +1,9 @@
+/* Import Css File To Style Document  */
 @import "./grid-sistem.css";
 @import "./fonts.css";
 @import "./helper.css";
 @import "./component.css";
+/* Create Root Project */
+:root {
+  --header-gradint: 90deg, #53269d 0%, #6d31d0 100.2%;
+}
