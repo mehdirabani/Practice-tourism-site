@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/Html-ff3d00">
 <img src="https://img.shields.io/badge/Css-2962ff">
 <img src="https://img.shields.io/badge/JavaScript-ffd600">    <a href="https://github.com/mehdirabani/grid-system" target="_blank"><img src="https://img.shields.io/badge/Css_Grid-ff3d00" /></a>
-<img src="https://img.shields.io/badge/Live_Demo-afb42b">
+<a href="https://mehdirabani.github.io/Practice-tourism-site/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-afb42b"></a>
 </div>
 <br>
 <br>
@@ -19,7 +19,7 @@ To strengthen the site design, we need to build a site without a CSS framework a
 If you are learning like me, I think this project can be useful for all of us
 
 <br>
-<img src="https://img.shields.io/badge/Live_Demo-afb42b">
+<a href="https://mehdirabani.github.io/Practice-tourism-site/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-afb42b"></a>
 <br>
 <br>
 Of course, in this project, it has been tried to translate and correct the Persian language according to the geographical location
