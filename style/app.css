@@ -53,6 +53,7 @@
 }
 .nav__toggle {
   /* display: none; */
+  cursor: pointer;
 }
 .nav__toggle-line {
   position: relative;
