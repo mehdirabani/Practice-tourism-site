@@ -54,6 +54,9 @@
 .nav__toggle {
   /* display: none; */
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav__toggle-line {
   position: relative;
