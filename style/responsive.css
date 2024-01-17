@@ -3,6 +3,25 @@
 @media screen and (max-width: 1200px) {
 }
 @media screen and (max-width: 992px) {
+  /* Menu Css Code */
+  .menu {
+    flex-direction: column;
+    opacity: 0;
+    position: relative;
+  }
+  .menu--open {
+    opacity: 1;
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+    background: red;
+  }
+  .nav__toggle {
+    display: flex;
+  }
 }
 @media screen and (max-width: 768px) {
 }
