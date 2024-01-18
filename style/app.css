@@ -94,7 +94,7 @@
   background: linear-gradient(90deg, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 30%)),
     url(../assets/image/picture_home1.jpg) no-repeat;
   background-size: cover;
-  padding: 12rem 0;
+  padding: 6rem 0;
 }
 .home__wrapper {
   display: flex;
@@ -115,6 +115,7 @@
   padding: 0 0.5rem;
   background: rgba(109, 49, 208, 0.5);
   border-radius: 1rem;
+  word-wrap: nowrap;
 }
 .home__offer:not(:last-child)::after {
   content: "";
@@ -156,15 +157,12 @@
   line-height: 3.2rem;
   margin-bottom: 1rem;
 }
-.swiper {
-}
-.swiper-wrapper {
-}
 .swiper-slide {
   margin-bottom: 4.5rem;
 }
 .citi__card {
-  background: #ffffffdc;
+  background: #ffffffb6;
+  border: 0.2rem solid #fff;
   padding: 1rem;
   width: 14.4rem;
   border-radius: 1.2rem;
@@ -172,7 +170,7 @@
   transition: all ease-in 0.2s;
 }
 .citi__card:hover {
-  background: #ffffff;
+  background: #ffffffee;
   transform: scale(1.01);
 }
 .citi-card__head {
