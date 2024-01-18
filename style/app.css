@@ -3,7 +3,7 @@
 @import "./fonts.css";
 @import "./helper.css";
 @import "./helper.css";
-/* Basic Style  */
+/* ======= Header Style Code ======= */
 .header {
   width: 100%;
   height: 12rem;
@@ -87,4 +87,10 @@
 }
 .nav__toggle--open .nav__toggle-line::before {
   transform: translatey(1.2rem) rotate(45deg);
+}
+/* ======= Home Section Style Code ======= */
+.home {
+  height: calc(100vh - 12rem);
+  background: url(../assets/image/picture_home1.jpg) no-repeat;
+  background-size: cover;
 }
