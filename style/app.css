@@ -161,6 +161,7 @@
 .swiper-wrapper {
 }
 .swiper-slide {
+  margin-bottom: 4.5rem;
 }
 .citi__card {
   background: #fff;
@@ -185,4 +186,19 @@
   color: #828cde;
 }
 .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.swiper-pagination-bullet {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  background: transparent !important;
+  border: solid 0.2rem #fff !important;
+}
+.swiper-pagination-bullet-active {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: #fff !important;
 }
