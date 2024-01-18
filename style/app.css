@@ -93,4 +93,44 @@
   height: calc(100vh - 12rem);
   background: url(../assets/image/picture_home1.jpg) no-repeat;
   background-size: cover;
+  padding: 4rem 0;
+}
+.home__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.home__offers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.home__offer {
+  position: relative;
+  color: #ffdb80;
+  text-shadow: 0px 0px 80px #023f76;
+  flex-shrink: 0;
+  padding: 0 0.5rem;
+  background: rgba(109, 49, 208, 0.5);
+  border-radius: 1rem;
+}
+.home__offer:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1.1rem;
+  width: 0.3rem;
+  height: 1rem;
+  background: #fff;
+  margin: auto;
+}
+.home__text-wrapper {
+}
+.home__title {
+}
+.home__sub-title {
+}
+.home__description {
+}
+.btn {
 }
