@@ -16,17 +16,14 @@
   align-items: center;
   justify-content: space-between;
 }
-.logo {
-}
-.logo__image {
-}
 .menu {
   display: flex;
   align-items: center;
   gap: 1.4rem;
   transition: all 0.2s ease-in-out;
 }
-.menu__list {
+.menu__logo {
+  display: none;
 }
 .menu__list-item {
   color: #fff;
@@ -37,6 +34,10 @@
   gap: 2.5rem;
 }
 .nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
 }
 .nav__link-items {
   color: #6d31d0;
@@ -47,10 +48,6 @@
   padding: 0.9rem 2.4rem;
   border-radius: 3rem;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
 }
 .nav__toggle {
   display: none;
