@@ -90,7 +90,7 @@
 }
 /* ======= Home Section Style Code ======= */
 .home {
-  height: calc(100vh - 12rem);
+  min-height: calc(100vh - 12rem);
   background: linear-gradient(90deg, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 30%)),
     url(../assets/image/picture_home1.jpg) no-repeat;
   background-size: cover;
@@ -146,4 +146,36 @@
 .home__description {
   text-shadow: 0px 0px 80px #023f76, 0px 4px 40px rgba(0, 0, 0, 0.25);
   line-height: 2.5rem;
+}
+.cities {
+}
+.cities__title {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.citi__card {
+  background: #fff;
+  padding: 1rem;
+  width: 14.4rem;
+  border-radius: 1.2rem;
+}
+.citi-card__head {
+}
+.citi-card-head__img {
+  width: 100%;
+  display: block;
+}
+.citi-card__foot {
+  margin-top: 1rem;
+}
+.citi-card-foot__title {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  color: #828cde;
+}
+.swiper-pagination {
 }
