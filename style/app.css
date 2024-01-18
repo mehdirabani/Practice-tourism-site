@@ -148,8 +148,13 @@
   line-height: 2.5rem;
 }
 .cities {
+  margin-top: 5rem;
 }
 .cities__title {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  margin-bottom: 1rem;
 }
 .swiper {
 }
@@ -164,13 +169,15 @@
   border-radius: 1.2rem;
 }
 .citi-card__head {
+  padding-bottom: 0.7rem;
+  border-bottom: solid 0.1rem #02030357;
 }
 .citi-card-head__img {
   width: 100%;
   display: block;
 }
 .citi-card__foot {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 .citi-card-foot__title {
   font-size: 2rem;

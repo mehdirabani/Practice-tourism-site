@@ -5,6 +5,7 @@ navToggle.addEventListener("click", function () {
   menuMobile.classList.toggle("menu--open");
 });
 const swiper = new Swiper(".swiper", {
+  loop: true,
   pagination: {
     el: ".swiper-pagination",
   },
