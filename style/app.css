@@ -164,10 +164,16 @@
   margin-bottom: 4.5rem;
 }
 .citi__card {
-  background: #fff;
+  background: #ffffffdc;
   padding: 1rem;
   width: 14.4rem;
   border-radius: 1.2rem;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+.citi__card:hover {
+  background: #ffffff;
+  transform: scale(1.01);
 }
 .citi-card__head {
   padding-bottom: 0.7rem;
