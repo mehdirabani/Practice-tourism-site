@@ -6,4 +6,9 @@
   box-shadow: 0px 3.527px 35.266px 0px rgba(255, 185, 175, 0.3);
   font-size: 2rem;
   line-height: 3.2rem;
+  transition: all ease-in 0.5s;
+}
+.btn:hover {
+  transition: all ease-in 0.5s;
+  background: linear-gradient(-96deg, #f1df78 -22.07%, #e7ae94 123.25%);
 }
