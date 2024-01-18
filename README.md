@@ -4,11 +4,13 @@
 <img src="https://img.shields.io/badge/Tourism_Theme-6200ea">
 <img src="https://img.shields.io/badge/Html-ff3d00">
 <img src="https://img.shields.io/badge/Css-2962ff">
-<img src="https://img.shields.io/badge/JavaScript-ffd600">    <a href="https://github.com/mehdirabani/grid-system" target="_blank"><img src="https://img.shields.io/badge/Css_Grid-ff3d00" /></a>
-<a href="https://mehdirabani.github.io/Practice-tourism-site/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-afb42b"></a>
+<img src="https://img.shields.io/badge/JavaScript-ffd600"> 
+<img src="https://img.shields.io/badge/Swiper_Slider-3f51b5"> 
+<a href="https://github.com/mehdirabani/grid-system" target="_blank"><img src="https://img.shields.io/badge/Css_Grid-ff3d00" />
+</a>
+<a href="https://mehdirabani.github.io/Practice-tourism-site/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-afb42b">
+</a>
 </div>
-<br>
-<br>
 <br>
 
 ---
