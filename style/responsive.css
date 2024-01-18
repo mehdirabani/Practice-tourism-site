@@ -5,6 +5,7 @@
 @media screen and (max-width: 992px) {
   /* Menu Css Code */
   .menu {
+    z-index: 50;
     flex-direction: column;
     opacity: 0;
     position: absolute;
