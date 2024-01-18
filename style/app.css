@@ -91,9 +91,10 @@
 /* ======= Home Section Style Code ======= */
 .home {
   height: calc(100vh - 12rem);
-  background: url(../assets/image/picture_home1.jpg) no-repeat;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 30%), rgba(0, 0, 0, 30%)),
+    url(../assets/image/picture_home1.jpg) no-repeat;
   background-size: cover;
-  padding: 4rem 0;
+  padding: 12rem 0;
 }
 .home__wrapper {
   display: flex;
