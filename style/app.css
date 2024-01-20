@@ -232,6 +232,14 @@
   border-radius: 6rem;
 }
 .services__card {
+  background: #fff;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
 }
 .services-card__head {
 }
@@ -246,6 +254,4 @@
 .services-card__foot {
 }
 .services-card-foot__btn {
-}
-.btn {
 }

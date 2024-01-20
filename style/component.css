@@ -7,6 +7,7 @@
   font-size: 2rem;
   line-height: 3.2rem;
   transition: all ease-in 0.5s;
+  display: inline-block;
 }
 .btn:hover {
   transition: all ease-in 0.5s;
