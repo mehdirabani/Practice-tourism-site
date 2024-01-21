@@ -232,7 +232,6 @@
   border-radius: 6rem;
 }
 .services__card {
-  width: 100%;
   background: #fff;
   border-radius: 2rem;
   overflow: hidden;
@@ -243,11 +242,8 @@
   align-items: center;
 }
 .services-card__head {
-  width: 100%;
 }
 .services-card-head__img {
-  display: block;
-  width: 100%;
 }
 .services-card__body {
 }
