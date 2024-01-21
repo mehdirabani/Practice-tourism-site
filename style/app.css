@@ -242,8 +242,10 @@
   align-items: center;
 }
 .services-card__head {
+  width: 100%;
 }
 .services-card-head__img {
+  width: 100%;
 }
 .services-card__body {
 }
