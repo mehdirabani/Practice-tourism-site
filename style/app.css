@@ -1,5 +1,5 @@
 /* Import Css File To Style Document  */
-@import "./grid-sistem.css";
+@import "./grid-system.css";
 @import "./fonts.css";
 @import "./helper.css";
 @import "./component.css";
@@ -248,10 +248,16 @@
   width: 100%;
 }
 .services-card__body {
+  text-align: center;
+  padding: 0 2rem;
 }
 .services-card-body__title {
+  margin-bottom: 2rem;
 }
 .services-card-body__caption {
+  max-width: 32rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .services-card__foot {
 }
