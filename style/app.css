@@ -4,7 +4,7 @@
 @import "./helper.css";
 @import "./component.css";
 /* ======= Basic Style Code ======= */
-body{
+body {
   overflow-x: hidden;
 }
 /* ======= Header Style Code ======= */
@@ -278,11 +278,11 @@ body{
   width: 32.5%;
 }
 .paradise__image--rigth {
-  background: url(../assets/image/image_villas.jpg) no-repeat center ;
+  background: url(../assets/image/image_villas.jpg) no-repeat center;
   background-size: cover;
 }
 .paradise__image--left {
-  background: url(../assets/image/image_villa.jpg) no-repeat center ;
+  background: url(../assets/image/image_villa.jpg) no-repeat center;
   background-size: cover;
 }
 .paradise__content {
@@ -301,9 +301,9 @@ body{
   top: 0;
   bottom: 0;
   width: 10rem;
-  background: rgb(255, 255, 255 , 60%);
+  background: rgb(255, 255, 255, 60%);
 }
-.paradise__content::after{
+.paradise__content::after {
   right: -10rem;
 }
 .paradise__content::before {
@@ -316,4 +316,33 @@ body{
 }
 .paradise__description {
   margin-bottom: 3.9rem;
+}
+/* ======= Ahy Choose Section Style Code ======= */
+.why-choose {
+  padding: 8rem 0;
+  background: linear-gradient(180deg, #fefc9e -47.89%, #fdbfa3 126.42%);
+}
+.why-choose__title {
+}
+.why-choose__description {
+}
+.why-choose__card {
+}
+.why-choose__card--purple {
+}
+.why-choose__card--orange {
+}
+.why-choose__card--blou {
+}
+.why-choose__card--yellow {
+}
+.why-choose-card__head {
+}
+.why-choose-card-head__image {
+}
+.why-choose-card__body {
+}
+.why-choose-card-body__title {
+}
+.why-choose-card-body__descrition {
 }
