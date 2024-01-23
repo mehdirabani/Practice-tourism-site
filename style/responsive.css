@@ -40,6 +40,24 @@
   .nav__toggle {
     display: flex;
   }
+  /* ======= Paradise Section Style Code ======= */
+  .paradise {
+    margin-top: 0;
+    flex-direction: column-reverse;
+  }
+  .paradise__image {
+    width: auto;
+    height: 40rem;
+  }
+  .paradise__content {
+    width: auto;
+    position: auto;
+    padding: 0 10rem;
+  }
+  .paradise__content::after,
+  .paradise__content::before {
+    width: 0;
+  }
 }
 @media screen and (max-width: 768px) {
 }
@@ -54,5 +72,9 @@
   }
   .home__text-wrapper {
     align-items: center;
+  }
+  /* ======= Paradise Section Style Code ======= */
+  .paradise__content {
+    padding: 0;
   }
 }
