@@ -321,28 +321,61 @@ body {
 .why-choose {
   padding: 8rem 0;
   background: linear-gradient(180deg, #fefc9e -47.89%, #fdbfa3 126.42%);
+  text-align: center;
 }
 .why-choose__title {
+  font-size: 3.6rem;
+  line-height: 4rem;
+  margin-bottom: 2rem;
 }
 .why-choose__description {
+  max-width: 50rem;
+  display: block;
+  margin-inline: auto;
+  line-height: 2.4rem;
+  margin-bottom: 6rem;
 }
 .why-choose__card {
-}
-.why-choose__card--purple {
-}
-.why-choose__card--orange {
-}
-.why-choose__card--blou {
-}
-.why-choose__card--yellow {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
 }
 .why-choose-card__head {
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80rem;
+  padding: 2rem;
+}
+.why-choose-card__head--purple {
+  background: linear-gradient(-180deg, #828cde -21.43%, #6d31d0 201.93%);
+}
+.why-choose-card__head--orange {
+  background: linear-gradient(-66deg, #fe6f2d -10.45%, #ffd059 76.78%);
+}
+.why-choose-card__head--blue {
+  background: linear-gradient(-76deg, #828cde -12.62%, #00b8c3 103.26%);
+}
+.why-choose-card__head--yellow {
+  background: linear-gradient(
+    -135deg,
+    rgba(255, 185, 175, 0.3) -3.89%,
+    #a651fb 94.34%
+  );
 }
 .why-choose-card-head__image {
+  width: 100%;
 }
 .why-choose-card__body {
 }
 .why-choose-card-body__title {
+  font-size: 2rem;
+  color: #6d31d0;
 }
 .why-choose-card-body__descrition {
+  color: #434364;
 }
