@@ -42,7 +42,7 @@
   }
   /* ======= Paradise Section Style Code ======= */
   .paradise {
-    margin-top: 0;
+    margin: 0;
     flex-direction: column-reverse;
   }
   .paradise__image {

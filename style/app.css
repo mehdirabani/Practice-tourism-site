@@ -300,8 +300,8 @@ body{
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 8rem;
-  background: rgb(255, 255, 255 , 50%);
+  width: 10rem;
+  background: rgb(255, 255, 255 , 60%);
 }
 .paradise__content::after{
   right: -10rem;
