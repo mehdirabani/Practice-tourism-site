@@ -260,3 +260,53 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* ======= Paradise Section Style Code ======= */
+.paradise {
+  margin: 8rem 0;
+  display: flex;
+  gap: 4rem;
+  min-height: 50rem;
+}
+.paradise__image {
+  width: 32.5%;
+}
+.paradise__image--rigth {
+  background: url(../assets/image/image_villas.jpg);
+  background-size: cover;
+}
+.paradise__image--left {
+  background: url(../assets/image/image_villa.jpg);
+  background-size: cover;
+}
+.paradise__content {
+  position: relative;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.paradise__content::after,
+.paradise__content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 8rem;
+  background: rgb(255, 255, 255 , 50%);
+}
+.paradise__content::after{
+  right: -10rem;
+}
+.paradise__content::before {
+  left: -10rem;
+}
+.paradise__title {
+  margin-top: 2rem;
+  color: #434364;
+  margin-bottom: 6.3rem;
+}
+.paradise__description {
+  margin-bottom: 3.9rem;
+}
