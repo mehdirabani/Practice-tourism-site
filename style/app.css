@@ -378,3 +378,37 @@ body {
   color: #434364;
 }
 /* ======= Map  Section Style Code ======= */
+.map-section {
+  padding: 8rem 0;
+  background: #fffcf3;
+}
+.map-section__wrapper {
+  display: flex;
+  gap: 1.5rem;
+}
+.map-section__map-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map-section-map__title {
+  font-size: 2.8rem;
+  color: #6d31d0;
+  margin-bottom: 2rem;
+}
+.map-section-map__caption {
+  margin-bottom: 1rem;
+}
+.map-section-map__map {
+  width: 100%;
+}
+.map-section__description-content {
+}
+.map-section-description-content__citi-card {
+}
+.map-section-description-content__image {
+}
+.map-section__description-content__citi-title {
+}
+.map-section-description-content__citi-description {
+}
