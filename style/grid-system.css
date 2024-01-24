@@ -32,7 +32,6 @@ body {
 .container-fluid {
   width: 100%;
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
