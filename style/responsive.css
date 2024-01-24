@@ -65,6 +65,17 @@
   .paradise__content::before {
     width: 0;
   }
+  /* ======= We Are Section Style Code ======= */
+  .we-are__content {
+    align-items: center;
+    justify-content: center;
+  }
+  .we-are__content {
+    flex-direction: column-reverse;
+  }
+  .we-are__card {
+    margin-left: auto;
+  }
 }
 @media screen and (max-width: 768px) {
 }
@@ -82,6 +93,13 @@
   }
   /* ======= Paradise Section Style Code ======= */
   .paradise__content {
+    padding: 0;
+  }
+  /* ======= We Are Section Style Code ======= */
+  .we-are__card{
+    flex-direction: column;
+  }
+  .we-are-card__content{
     padding: 0;
   }
 }

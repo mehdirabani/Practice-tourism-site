@@ -474,6 +474,7 @@ body {
   width: 100%;
 }
 .we-are-card__content {
+  text-align: center;
   padding-right: 5rem;
   display: flex;
   flex-direction: column;

@@ -1,4 +1,5 @@
 .btn {
+  white-space: nowrap;
   background: linear-gradient(96deg, #ffeb80 -22.07%, #fdbfa3 123.25%);
   padding: 1.6rem 2.2rem;
   border-radius: 8.89rem;
