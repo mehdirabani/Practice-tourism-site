@@ -1,6 +1,13 @@
 @media screen and (max-width: 1400px) {
 }
 @media screen and (max-width: 1200px) {
+  /* ======= Map  Section Style Code ======= */
+  .map-section__wrapper {
+    flex-direction: column;
+  }
+  .map-section__description-content {
+    max-width: 100%;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .services-card-body__caption {
