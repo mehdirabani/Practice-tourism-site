@@ -26,3 +26,6 @@ If you are learning like me, I think this project can be useful for all of us
 <br>
 Of course, in this project, it has been tried to translate and correct the Persian language according to the geographical location
 If you want to make the same design without translating the template, just edit the grid file because it is right-aligned by default.
+
+<br>
+<img src="./assets/image/image_2024-01-25_04-43-43.png">
