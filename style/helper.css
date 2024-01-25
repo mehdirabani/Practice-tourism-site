@@ -1,9 +1,12 @@
-.align-center{
+.align-center {
   align-items: center;
 }
-.content-center{
+.content-center {
   justify-content: center;
 }
-.mt-60{
+.mt-60 {
   margin-top: 6rem;
+}
+.text-black {
+  color: #000 !important;
 }

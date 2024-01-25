@@ -487,3 +487,34 @@ body {
 .we-are-card-text {
   color: #434364;
 }
+/* ======= Contact Us Section Style Code ======= */
+.contact-us {
+  padding: 8rem 0;
+  background: linear-gradient(
+    180deg,
+    rgba(109, 49, 208, 0.1) 0%,
+    rgba(109, 49, 208, 0.21) 28.65%,
+    rgba(109, 49, 208, 0.47) 53.12%,
+    #6d31d0 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+.contact-us__connect {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.contact-us__image {
+  background: linear-gradient(90deg, #6d31d0 0%, #ab80ef 104.7%);
+  width: 4.8rem;
+  height: 4.8rem;
+  padding: 1rem;
+  border-radius: 80rem;
+}
+.contact-us__text {
+  font-size: 4rem;
+  color: #6d31d0;
+}
