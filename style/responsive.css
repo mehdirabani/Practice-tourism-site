@@ -102,4 +102,8 @@
   .we-are-card__content{
     padding: 0;
   }
+
+  .contact-us__text{
+    font-size: 2.5rem;
+  }
 }
